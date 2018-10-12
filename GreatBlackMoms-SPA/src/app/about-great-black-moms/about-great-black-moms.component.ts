@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-About-Great-Black-Moms',
-  templateUrl: './About-Great-Black-Moms.component.html',
-  styleUrls: ['./About-Great-Black-Moms.component.css']
+  selector: 'app-about-great-black-moms',
+  templateUrl: './about-great-black-moms.component.html',
+  styleUrls: ['./about-great-black-moms.component.css']
 })
 export class AboutGreatBlackMomsComponent implements OnInit {
 
