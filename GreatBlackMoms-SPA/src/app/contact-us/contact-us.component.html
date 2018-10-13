@@ -1,17 +1,18 @@
-<form [formGroup]="contactUsForm">
-    <div class="form-group">
-        <input type="text" class="form-control" formControlName="firstName" placeholder="firstName">
-      </div>
-        
+<div class="row">
+  <div class="container col-md-6 mt-5">
+    <h4>Contact Us</h4>
+    <form [formGroup]="contactUsForm" (ngSubmit)="sendContact()">
       <div class="form-group">
-        <input type="password" class="form-control" formControlName="lastName" placeholder="lastName">
+        <input type="text" class="form-control" formControlName="name" placeholder="Your Name">
       </div>
-        
       <div class="form-group">
-        <input type="password" class="form-control" formControlName="email" placeholder="email">
+        <input type="email" class="form-control" formControlName="email" placeholder="Your E-Mail">
       </div>
-  
       <div class="form-group">
-        <input type="password" class="form-control" formControlName="contents" placeholder="contents">
+        <textarea class="form-control" formControlName="contents" placeholder="Your Message"></textarea>
       </div>
-</form>
+      <div class="form-group text-center">
+        <button class="btn btn-success" type="submit">Send</button>      </div>
+    </form>
+  </div>
+</div>

@@ -9,7 +9,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AlertifyService } from './_services/alertify.service';
 
 @NgModule({
    declarations: [
@@ -23,9 +24,12 @@ import { FormsModule } from '@angular/forms';
    imports: [
       BrowserModule,
       RouterModule.forRoot(appRoutes),
-      FormsModule
+      FormsModule,
+      ReactiveFormsModule
    ],
-   providers: [],
+   providers: [
+       AlertifyService
+   ],
    bootstrap: [
       AppComponent
    ]
