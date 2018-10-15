@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -11,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AlertifyService } from './_services/alertify.service';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
    declarations: [
@@ -19,16 +21,18 @@ import { AlertifyService } from './_services/alertify.service';
       AboutGreatBlackMomsComponent,
       AboutTheStudyComponent,
       ContactUsComponent,
-      HomeComponent
+      HomeComponent,
+      SliderComponent
    ],
    imports: [
       BrowserModule,
       RouterModule.forRoot(appRoutes),
       FormsModule,
-      ReactiveFormsModule
+      ReactiveFormsModule,
+      NgbModule
    ],
    providers: [
-       AlertifyService
+      AlertifyService
    ],
    bootstrap: [
       AppComponent
