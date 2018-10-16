@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
+import { url } from 'inspector';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  bckImg = '../../assets/img/cover-photo.jpg';
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private renderer: Renderer2) {
   }
 
+  ngOnInit() {
+
+  }
 }
