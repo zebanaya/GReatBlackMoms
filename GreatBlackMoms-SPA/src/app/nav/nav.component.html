@@ -1,7 +1,11 @@
-<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" [routerLink]="['/home']">Great Black Moms</a>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
 
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen}" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" routerLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/aboutgreatblackmoms']">About Great Black Moms</a>
