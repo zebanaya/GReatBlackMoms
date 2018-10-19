@@ -6,7 +6,6 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  bckImg = '../../assets/img/cover-photo.jpg';
 
   constructor(private renderer: Renderer2) {
   }
