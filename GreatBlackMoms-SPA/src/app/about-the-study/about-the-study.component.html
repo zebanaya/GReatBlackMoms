@@ -1,5 +1,9 @@
 <div class="row">
     <div class="container col-md-6 mt-5">
+      <div class="btn-toolbar">
+        <button type="button" class="btn btn-primary mr-5" (click)="openSurveyModal(ExpectantMotherModal)">Take Expectant Mother Survey</button>
+        <button type="button" class="btn btn-primary" (click)="openSurveyModal(WorkingWithFamiliesModal)">Take Working with Families Survey</button>
+      </div>
       <h4>Proposed Research Study</h4>
       <p>
         Location: Grand Rapids, Detroit, Kalamazoo Michigan Population: Unmarried Black women expecting their first child and prenatal/postpartum professionals who provide care for a similar demographic.
@@ -20,11 +24,6 @@
           <button class="btn btn-success" type="submit">Send</button>
         </div>
       </form>
-
-      <div class="btn-toolbar">
-        <button type="button" class="btn btn-primary mr-5" (click)="openSurveyModal(ExpectantMotherModal)">Take Expectant Mother Survey</button>
-        <button type="button" class="btn btn-primary" (click)="openSurveyModal(WorkingWithFamiliesModal)">Take Working with Families Survey</button>
-      </div>
 
       <ng-template #ExpectantMotherModal>
         <div class="modal-header">
