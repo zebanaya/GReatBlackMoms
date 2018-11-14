@@ -1,15 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>032087a6-5ce1-46d8-ba59-95d3aafe31bb</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="4.3.1" />
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\GreatBlackMoms.Services\GreatBlackMoms.Services.csproj" />
+    <ProjectReference Include="..\GreatBlackMoms.Models\GreatBlackMoms.Models.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.csprojAssemblyReference.cache
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.csproj.CoreCompileInputs.cache
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.AssemblyInfoInputs.cache
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.AssemblyInfo.cs
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\bin\Debug\netstandard2.0\GreatBlackMoms.Services.deps.json
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\bin\Debug\netstandard2.0\GreatBlackMoms.Services.dll
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\bin\Debug\netstandard2.0\GreatBlackMoms.Services.pdb
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.dll
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.pdb
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\bin\Debug\netstandard2.0\GreatBlackMoms.Models.dll
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\bin\Debug\netstandard2.0\GreatBlackMoms.Models.pdb
+C:\Users\zah33532\Workspace\GreatBlackMoms\GreatBlackMoms.Services\obj\Debug\netstandard2.0\GreatBlackMoms.Services.csproj.CopyComplete

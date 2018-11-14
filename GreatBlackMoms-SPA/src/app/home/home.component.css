@@ -1,0 +1,23 @@
+.homebtn
+{
+    margin-left: 50px;
+}
+
+.wrapper
+{
+    background-image: url('../../assets/img/cover-photo.jpg');
+    /* width: 400px; */
+    height: 700px;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
