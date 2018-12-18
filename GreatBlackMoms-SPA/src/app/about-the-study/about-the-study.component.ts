@@ -12,7 +12,6 @@ import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
 export class AboutTheStudyComponent implements OnInit {
   modalRef: BsModalRef;
   studyRegistrationForm: FormGroup;
-  modalRef: BsModalRef;
   items: any[];
 
   constructor(private alertify: AlertifyService, private modalService: BsModalService) { }
