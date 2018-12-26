@@ -3,6 +3,16 @@
     margin-left: 50px;
 }
 
+.sectionTest {
+    background-image: url('../../assets/img/simon-matzinger-448263-unsplash.jpg');
+    background-size: cover;
+}
+
+.researchBtn {
+    text-align: center !important;
+    display: Block !important;
+}
+
 .wrapper
 {
     background-image: url('../../assets/img/cover-photo.jpg');

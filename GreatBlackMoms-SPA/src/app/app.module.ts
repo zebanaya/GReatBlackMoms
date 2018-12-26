@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap/';
+import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -34,7 +35,8 @@ import { SliderComponent } from './slider/slider.component';
       FormsModule,
       ReactiveFormsModule,
       NgbModule,
-      ModalModule.forRoot()
+      ModalModule.forRoot(),
+      AngularFullpageModule
    ],
    providers: [
       AlertifyService
