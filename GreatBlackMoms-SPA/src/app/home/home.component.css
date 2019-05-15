@@ -14,7 +14,7 @@ body {
 .sectionTest {
     width: 100vw;
     height: 100vh;
-    background: url('../../assets/img/simon-matzinger-448263-unsplash.jpg');    
+    background: url('../../assets/img/cover-photo.jpg');    
     background-size: 100% 100%;
     background-position: top center;
 }
