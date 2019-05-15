@@ -5,18 +5,23 @@ body {
     background-size: cover;
     -o-background-size: cover;
   }
-  
+
 .homebtn
 {
     margin-left: 50px;
 }
 
-.wrapper
-{
-    /* background-image: url('../../assets/img/cover-photo.jpg'); */
-    /* width: 400px; */
-    /* overflow: hidden;
-    background-size: cover; */
+.sectionTest {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/img/simon-matzinger-448263-unsplash.jpg');    
+    background-size: 100% 100%;
+    background-position: top center;
+}
+
+.researchBtn {
+    text-align: center !important;
+    display: Block !important;
 }
 
 .container-table {
